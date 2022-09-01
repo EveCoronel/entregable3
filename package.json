@@ -1,5 +1,24 @@
 {
   "dependencies": {
     "express": "^4.18.1"
-  }
+  },
+  "name": "entregable3",
+  "version": "1.0.0",
+  "main": "Entregable3.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "npm index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EveCoronel/entregable3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EveCoronel/entregable3/issues"
+  },
+  "homepage": "https://github.com/EveCoronel/entregable3#readme",
+  "description": ""
 }

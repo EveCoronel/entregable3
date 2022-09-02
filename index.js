@@ -44,6 +44,10 @@ app.get('/productoRandom', (req, res) => {
     res.send(randomProduct)
 })
 
+app.get('*',(req, res) => {   
+    res.status(404).send('Página no encontrada')
+})
+
 serverConnected.on('error', (error) => {
     console.log(error.message)
 })
